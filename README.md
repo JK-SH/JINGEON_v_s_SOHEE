@@ -1,9 +1,20 @@
-JINGEON_vs_SOHEE<br>
-<a href="sohee.html">새벽편지</a><br>
-이것은 몰래쓰는 편지? 같은거야<br>
-근데 너무 졸려서 이제 그만 자야겠어 여보는 진작에 잠들었나부다..지금은 2시30분이야ㅎㅎ<br>
-이거 근데 인터넷페이지기 때문에 누군가 들어오면 다 볼 수 있는거 알지?ㅋㅋㅋ<br>
-그럴일은 없겠지만 ㅎㅎ 그래도 그렇다구여ㅋㅋㅋ<br>
-이거 줄바꾸는것도 일일이 코드입력하면서 하고 있는겨,,시간가는줄 모르겠어 하다보니깐..너무어렵기도하고..<br>
-빨리자야지 내일 여보랑 놀텐데 큰일이네ㅋㅋㅋㅋ자볼게요여보 ㅠㅠ 사랑하구 내일봅시당!<br>
-다 읽으셨으면 새벽편지를 누르시오
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>JinGeon's HandMade-Page for Sohee</title>
+  <meta charset="utf-8">
+<link rel="stylesheet" href="style7.css">
+</head>
+
+<body style="text-align:center;"">
+<h1>WHAT IS LOVE?</h1><br><br><br>
+<p>  <video width="400" height="300" controls>
+    <source src="whatis.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+  </video></p>
+<h2><a href="0715.html">소희 & 진건 페이지!</a><h2>
+</body>
+
+</html>
