@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -6,8 +5,7 @@
   <meta charset="utf-8">
 <link rel="stylesheet" href="style7.css">
 </head>
-
-<body style="text-align:center;"">
+<body>
 <h1>WHAT IS LOVE?</h1><br><br><br>
 <p>  <video width="400" height="300" controls>
     <source src="whatis.mp4" type="video/mp4">
