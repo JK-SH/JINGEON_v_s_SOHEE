@@ -11,5 +11,6 @@
     <source src="movie.ogg" type="video/ogg">
     Your browser does not support the video tag.
   </video></p>
-<h2><a href="0715.html">소희 & 진건 페이지!</a><h2>
+<p style="text-align:center;">
+<h2><a href="0715.html">소희 & 진건 페이지!</a><h2></p>
 
