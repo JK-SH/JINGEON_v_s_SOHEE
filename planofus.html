@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>JinGeon's HandMade-Page for Sohee</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style7.css">
+  <SCRIPT LANGUAGE="Javascript">
+    var today = new Date()
+    var cup = new Date("July,15,2018")
+    var a = cup.getTime();
+    var b = today.getTime();
+    var day = Math.ceil((b - a) / 24 / 60 / 60 / 1000)
+  </SCRIPT>
+</head>
+
+<body>
+  <h1>SOHEE <img src="heart.jpg" width="60" height="auto"> JINGEON</h1>
+  <div id="grid1">
+    <ul>
+      <li><a href="main.html">MAIN</a></li>
+      <li><a href="profile.html">PROFILE</a></li>
+      <li><a href="story.html">HISTORY</a></li>
+      <li><a href="gallery.html">PLAN OF US</a></li>
+      <li><a href="comments.html">COMMENTS</a></li>
+    </ul>
+    <span style="font-size:30px;font-family: impact;">
+      <SCRIPT LANGUAGE="Javascript">
+        document.write("우리 만난지 " + day + "일")
+      </SCRIPT><p>그리고 앞으로 우리의 계획(?)</p>
+      <audio id="audioplayer" autoplay controls>
+        <source src="need.mp3">
+      </audio>
+      <div style="font-size:25px;text-align:left;font-family:Courier">
+      <strong><li><a href="http://www.cjapplemarathon.com/" target="blank">13th. OCT. 2019. 충주사과마라톤(이긴 한데... 흠..)</a></li>
+      <a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';" href="javascript:void(0)">
+        <li>26th. NOV. 2019. 이 날이 우리 500일이야..ㅋ  </li>
+        </a><div style="DISPLAY: none">
+        <li>이 날은 이 영화 보자 <u><a href="https://brunch.co.kr/@rollang/12" target="blank">500days of Summer</a></u></li>
+        </div>
+        <a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';" href="javascript:void(0)">
+          <li>14th. APR. EVERY YEAR 매년 같이 보낼 생일 </li>
+        </a><div style="DISPLAY: none">
+        <li>여깄는거 다 사줄게 <u><a href="https://www.instagram.com/explore/tags/%EC%97%AC%EC%9E%90%EC%B9%9C%EA%B5%AC%EC%83%9D%EC%9D%BC%EC%84%A0%EB%AC%BC/" target="blank">골라봐</a></u></li>
+        </div>
+        <a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';" href="javascript:void(0)">
+          <li>31st. MAY. 2020. 전역일 입니다! 이거는 암것도 없으니 누르지마셈!</li>
+        </a><div style="DISPLAY: none">
+        <li>함정입니다(전역날 내 기분이 이럴거 같아)<br><img src="trap.jpg"width="200"height="auto"></li>
+        </div>
+        <a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';" href="javascript:void(0)">
+      <li>??. ???. 20??. 우리 결혼식!</li>
+    </a><div style="DISPLAY: none">
+    <li><u><a href="https://www.instagram.com/explore/tags/%EA%B2%B0%ED%98%BC/" target="blank">우리가 지금 생각하는거보다 더 빨리하고 싶은 마음에 물음표야 사랑해요♡</a></u></li></div>
+    </span>
+  </div>
+</body>
+
+</html>

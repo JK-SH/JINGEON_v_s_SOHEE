@@ -1,0 +1,42 @@
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+
+<!-- 카운트 다운 시작-->
+<script language=\＇javascript\＇>
+<!--
+
+function showtime(time){
+
+mytime=time;
+
+day=Math.floor(mytime/86400);//일
+day_mod=mytime%86400;
+
+hour=Math.floor(day_mod/3600);//시간
+hour_mod=day_mod%3600;
+
+min=Math.floor(hour_mod/60); //분
+
+sec=hour_mod%60; //초
+
+document.timeform.time.value = \" \" + day + \"일 \" + hour + \"시간 \" + min + \"분 \" + sec + \"초\";
+mytime--;
+}
+setInterval(\"showtime(mytime)\",1000);
+//-->
+</script>
+</HEAD>
+
+
+<?
+$theday=mktime(0,0,0,8,4,2002); //여기수정; 시,분,초,월,일,년
+$nowday=time();
+$tmptime = $theday - $nowday;
+echo (\" <body onload=\＇showtime($tmptime)\＇>\");
+?>
+
+<form name=timeform>
+<input type=text name=time size=25 style=\＇border:solid #f4f4f4 0px;color:red;height:14;font-size:12;valign:top\＇ readonly >
+</form>
+<!-- 카운트 다운 끝! -->

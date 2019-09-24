@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+ul {
+  font-family: impact;
+  font-size: 30px;
+  line-height: 2.4em;
+  border-right: 2px solid white;
+  margin: 0;
+  padding-top: 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: arial black;
+  font-size: 45px;
+  text-align: center;
+  border-bottom: 2px solid white;
+  margin: 0px;
+  padding-bottom: 10px;
+
+}
+
+span {
+  margin-top: 40px;
+  margin-left: 40px;
+  text-align: center;
+}
+
+#grid1 {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+#gasa {
+  font-family: sans-serif;
+}
+
+@media(max-width:800px) {
+  #grid1 {
+    display: block;
+  }
+
+  ul {
+    border-right: none;
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+  }
+}
