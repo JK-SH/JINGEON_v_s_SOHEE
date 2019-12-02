@@ -12,5 +12,5 @@
     Your browser does not support the video tag.
   </video></p>
 <h2 style="text-align:center;"><a href="0715.html">소희 & 진건 페이지!</a><h2>
-<h3><a href="word.html">끝말잇기</h3>
+<h3><a href="word.html">끝말잇기</a></h3>
 
